@@ -1,5 +1,7 @@
-# Introduction
+>[!Important]
+> El desarollo de las prascticas se sencuentra en el Branch "Master"
 
-Este repositorio se creo con el animo de comprender los comandos basicos mas utlizado en el entorno de Linux-Ubuntu
+# Hello World
+### Repositorio creado para mostrar el desarollo de las actividades en Digitales III
 
-La información se encuentra en Master Branch
+
