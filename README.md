@@ -82,26 +82,21 @@ Permite ejecutar simulaciones de robots de forma portátil, sin necesidad de ins
 
 robot-sim-docker/ \
 ├── Dockerfile \
-├── requirements.txt\
-├── start.sh \
 ├── main.py  \            
 └── two_joint_robot_custom.urdf  \
 
 📁 Archivos del proyecto 
   📄 Dockerfile
+    📄 main.py
+      📄 two_joint_robot_custom.urdf
   
-  📄 requirements.txt
-  
-  📄 start.sh
-  
-  📄 Ejecutar PyBullet en modo GUI con un servidor X virtual
+  📄 Ejecutar PyBullet en modo GUI con Python3
 
 
 ▶️ Construir y correr el contenedor
   
-  -Construir contenedor: 'docker build -t pybullet-robot-sim .'
-  
-  - Ejecuta el contenedor con soporte gráfico
+  -Construir contenedor: 'docker build -t pybullet-robot-sim 
+  - Ejecuta el contenedor con GUI
   
   - 
 
