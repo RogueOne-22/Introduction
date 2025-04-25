@@ -1,2 +1,1 @@
-# sys--monitor-tool
-Conjunto de scripts Bash para monitorear recursos del sistema y automatizar tareas
+En este reposotio se encuentra el desarrollo de las diferentes activiades relacionadas con el primer corte.
