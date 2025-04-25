@@ -101,6 +101,7 @@ print(resp.status)
 ### 9. `json`
 
 **Descripción:** Manejo de datos JSON. Esencial para APIs y configuración.
+Estas librerías forman parte del ecosistema de desarrollo para Pepper. Se recomienda explorar sus respectivas documentaciones oficiales de acuerdo a la necesidad del usuario.
 **Documentación:** [json — Python Docs](https://docs.python.org/3/library/json.html)
 ```python
 import json
@@ -111,6 +112,7 @@ print(json.dumps(data))
 📝 Nota final
 
 Estas librerías forman parte del ecosistema de desarrollo para Pepper. Se recomienda explorar sus respectivas documentaciones oficiales de acuerdo a la necesidad del usuario.
+
 ---
 📚 Bibliografía
 
