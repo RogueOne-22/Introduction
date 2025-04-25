@@ -110,7 +110,7 @@ print(json.dumps(data))
 ---
 📝 Nota final
 
-###Estas librerías forman parte del ecosistema de desarrollo para Pepper. Se recomienda explorar sus respectivas documentaciones oficiales para un mayor dominio de su uso.
+Estas librerías forman parte del ecosistema de desarrollo para Pepper. Se recomienda explorar sus respectivas documentaciones oficiales de acuerdo a la necesidad del usuario.
 ---
 📚 Bibliografía
 
