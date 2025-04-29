@@ -1,5 +1,6 @@
 > [!Note]
-> Actulización - Segundo corte: Scroll down para el desarollo de las diferentes actividades (Tarea 6 y 7)
+> Actulización - Segundo corte: Scroll down para el  resumen de las diferentes actividades (Tarea 6 y 7) \
+> Para mayor informacion revisar los documentos adjuntos en las carpetas de cada tarea
 
 # Tarea 6:  Pepper, PyBullet, ROS2 y Gazebo
 
@@ -54,50 +55,37 @@ Permite ejecutar simulaciones de robots de forma portátil, sin necesidad de ins
   ![Simulación Nao pepper en Gazebo](https://images.app.goo.gl/3HoQz5rXF3v3wE4n9)
 ---
 
-# 🚀 Tarea 7: Doker, Pybullet, Brazo robotico
+# 🚀 Tarea 7: Proyecto: Simulación de Robot de Dos Articulaciones en  ejecutado desde Docker
 
----
-## Decostrucción Algoritmo del brazo (main.py):
+Este proyecto consiste en la simulación de un robot de dos articulaciones usando **PyBullet**, ejecutado dentro de un contenedor Docker configurado para soportar entorno gráfico.
 
- - Inicializa PyBullet en modo interfez gráfica.
- - Carga el plano del entorno y el robot definido en archivo URDF.
- - Crea sliders:
+La simulación permite:
+- Controlar el movimiento de las dos articulaciones mediante sliders.
+- Ajustar dinámicamente la velocidad de simulación.
+- Pausar y reanudar la simulación en tiempo real.
 
-        Controlar posición de Joint 1 y Joint 2.
+## 🛠️ Archivos utilizados
 
-        Controlar la velocidad de simulación.
+- **`main.py`**: Script principal que lanza la simulación 
+- **`two_joint_robot_custom.urdf`**: Archivo URDF que define la estructura del robot.
+- **`Dockerfile`**: Configura un contenedor Docker.
 
-        Botón para pausar o reanudar la simulación.
-- ciclos:
+## 🚀 Cómo ejecutar el contenedor
 
-        Lee valores de sliders.
 
-        Aplica control de posición a las articulaciones.
+1. Correr el contenedor con soporte gráfico:
 
-        Ajusta la velocidad de simulación
+```bash
+xhost +local:docker
+docker run --rm -it \
+    --env="DISPLAY" \
+    --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw" \
+    robot-simulator
+```
 
-# 📦 Aplicación con Docker
+## 📷 Resultados esperados
 
-📁 Estructura del Contenedor:
-
-robot-sim-docker/ \
-├── Dockerfile \
-├── main.py  \            
-└── two_joint_robot_custom.urdf  \
-
-📁 Archivos del proyecto 
-  📄 Dockerfile
-    📄 main.py
-      📄 two_joint_robot_custom.urdf
+ [Demostracion.webm](https://github.com/user-attachments/assets/cea2c372-31bd-427f-8e39-27fc9e0883bc)
   
-  📄 Ejecutar PyBullet en modo GUI con Python3
-
-
-▶️ Construir y correr el contenedor
-  
-  -Construir contenedor: 'docker build -t pybullet-robot-sim 
-  - Ejecuta el contenedor con GUI
-  
-  - 
 
  
