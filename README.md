@@ -34,10 +34,13 @@ A continuación se listan algunas de las principales librerías utilizadas para 
 - Fácil integración con Python.
 - Interfase visual básico para pruebas rápidas.
   
-[Pybullet Start Guide]([https://pages.github.com/](https://raw.githubusercontent.com/bulletphysics/bullet3/master/docs/pybullet_quickstartguide.pdf)
+[Pybullet Start Guide] [https://pages.github.com/](https://raw.githubusercontent.com/bulletphysics/bullet3/master/docs/pybullet_quickstartguide.pdf)
 
 ### Se plantea los pasos de intalación en bash y la simulación de un brazo 
-![Entorno Pybullet](https://images.app.goo.gl/FfdMXZuVKzJGFzeD8)
+
+![Screenshot from 2025-04-24 20-10-54](https://github.com/user-attachments/assets/95527279-d504-4ba3-b5f9-14c91764a3f4)
+
+[Screencast from 04-24-2025 09:18:15 PM.webm](https://github.com/user-attachments/assets/2c4ea4b7-37f7-4dd8-aa42-925c335a40bb)
 
 ---
 ## Instalación de ROS2 y Gazebo vía Docker
@@ -51,8 +54,9 @@ Permite ejecutar simulaciones de robots de forma portátil, sin necesidad de ins
 - **Docker**: Para crear entornos de desarrollo aislados y reproducibles.
 - **ROS 2**: Framework de software robótico para comunicaciones, control y simulaciones.
 - **Gazebo**: Motor de simulación 3D de robots, sensores y entornos físicos.
+![Screenshot from 2025-04-24 17-55-26](https://github.com/user-attachments/assets/097d9322-b51b-49e4-9a0d-90aaebefcd4e)
 
-  ![Simulación Nao pepper en Gazebo](https://images.app.goo.gl/3HoQz5rXF3v3wE4n9)
+  
 ---
 
 # 🚀 Tarea 7: Proyecto: Simulación de Robot de Dos Articulaciones en  ejecutado desde Docker
