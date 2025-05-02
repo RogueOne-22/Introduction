@@ -1,6 +1,6 @@
 > [!Note]
 > Actulización - Segundo corte: Scroll down para el  resumen de las diferentes actividades (Tarea 6 y 7) \
-> Para mayor informacion revisar los documentos adjuntos en las carpetas de cada tarea
+> Para mayor informacion revisar los documentos adjuntos en las carpetas de cada tarea ["Tarea 6! y "Tarea 7"]
 
 # Tarea 6:  Pepper, PyBullet, ROS2 y Gazebo
 
