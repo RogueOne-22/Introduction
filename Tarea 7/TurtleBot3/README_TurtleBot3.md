@@ -47,11 +47,16 @@ roslaunch turtlebot3_gazebo turtlebot3_house.launch"
 - Mejores resultados en entornos abiertos.
 - Sensor LiDAR de gran alcance y buena velocidad de respuesta.
 - Adecuado para mapeo rápido de áreas con obstáculos dispersos.
+- 
+![Screenshot from 2025-05-01 19-12-48](https://github.com/user-attachments/assets/e23a41f8-e060-4086-95f0-9107cb707e9e)
+
 
 ### 🔹 Modelo Waffle
 - Adecuado para espacios cerrados y angostos.
 - Sensor LiDAR + cámara 3D (Intel RealSense).
 - Mejor capacidad de percepción tridimensional.
+- 
+![Screenshot from 2025-05-01 19-16-15](https://github.com/user-attachments/assets/be361f04-e0bf-4b91-ad09-c2506a5f5a3e)
 
 ---
 
@@ -62,8 +67,6 @@ roslaunch turtlebot3_gazebo turtlebot3_house.launch"
 - Burger es más ligero y ágil.
 
 ---
-
-## 🔗 Recursos
 
 - Manual oficial: [emanual.robotis.com](https://emanual.robotis.com/docs/en/platform/turtlebot3/overview/)
 - Sitio oficial: [turtlebot.com](https://www.turtlebot.com/turtlebot3/)
