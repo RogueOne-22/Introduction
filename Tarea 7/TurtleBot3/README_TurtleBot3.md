@@ -1,3 +1,7 @@
+
+> [!Note]
+> Los videos de la simulación se encuentran contenidos en la carpeta 
+
 # 🤖 Simulación del TurtleBot3 con ROS Noetic
 
 Este proyecto implementa una simulación del robot móvil TurtleBot3 utilizando ROS Noetic y el simulador Gazebo. Se integran herramientas de SLAM para la exploración y mapeo de entornos, evaluando los modelos Burger y Waffle.
