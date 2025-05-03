@@ -73,10 +73,12 @@ docker run --rm -it \
 Al ejecutar el contenedor:
 - Aparecerá una ventana PyBullet.
 - Se podrá controlar las articulaciones del robot con sliders en tiempo real.
+  
+[Robot-sim-docker.webm](https://github.com/user-attachments/assets/c27c4ecf-8a1a-474b-b320-de53277bf460)
 
-![Screenshot from 2025-04-25 10-55-40](https://github.com/user-attachments/assets/131175b8-1a02-4083-983f-3890e224042c)
 
-[Robot-sim-docker.webm](https://github.com/user-attachments/assets/d4e7a6b2-bd0c-45e9-9cc3-c870487c7d0d)
+
+
 
 
 
