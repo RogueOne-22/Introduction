@@ -1,6 +1,6 @@
 
 > [!Note]
-> Los videos de la simulación se encuentran contenidos en la carpeta 
+> Para mas información revisar el archivo pdf adjunto, contiene mas de 5 páginas
 
 # 🤖 Simulación del TurtleBot3 con ROS Noetic
 
