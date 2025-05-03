@@ -1,7 +1,7 @@
 # Introducción a PyBullet
 
-> [!NOTE]
-> Para visualizar las imagenes revisar los pdf adjuntos
+> [!Important]
+> Para visualizar mas información acerca del desarrollo de la actividad revisar el archivo "Tarea_6-1 - Pybullet.pdf" (más de 5 páginas)
 
 ---
 
@@ -14,7 +14,7 @@ Está basado en el motor físico **Bullet**, una biblioteca rápida y de código
 
 ## 🛠️ Características principales
 
-- Simulación de cuerpos rígidos (gravedad, masas, etc.)
+- Simulación de cuerpos rígidos 
 - Detección de colisiones
 - Cinemática y dinámica para robots
 - Simulación de sensores (cámaras, IMUs, sensores de fuerza)
@@ -24,7 +24,7 @@ Está basado en el motor físico **Bullet**, una biblioteca rápida y de código
 
 ## 🧪 Instalación
 
-Instala PyBullet con pip:\
+Instala PyBullet con pip:
 
 ```bash
 pip install pybullet
@@ -43,24 +43,21 @@ python3 -m pip show pybullet
 
 ## 🛠️ Utilidades con PyBullet:
 
-- Simular robots como UR5, KUKA, Baxter, PR2, etc.
 - Importar y animar modelos URDF (usados en ROS)
 - Usar cinemática inversa para mover brazos robóticos
 - Recoger datos de sensores
 - Crear entornos fı́sicos personalizados
-- Entrenar agentes con aprendizaje por refuerzo (RL)\ 
+- Entrenar agentes con aprendizaje por refuerzo (RL)
+  
 [PyBullet Quickstart Guide](https://raw.githubusercontent.com/bulletphysics/bullet3/master/docs/pybullet_quickstartguide.pdf)
 
 ## 🤖 Simulación de Brazo Robótico en PyBullet
 
 Se simula un brazo robótico con 7 grados de libertad tomado del repositorio kuka_experimental. La simulación se desarrolla en tres etapas:
-```
-    Inicialización del entorno y parámetros básicos
-
-    Fijación del brazo en el entorno para estabilidad
-
-    Manejo matemático de articulaciones con control individual
-```
+    - Inicialización del entorno y parámetros básicos
+    - Fijación del brazo en el entorno para estabilidad
+    - Manejo matemático de articulaciones con control individual
+    
 #Código de Simulación 1 (sin base fija)
 
 ```python
@@ -115,12 +112,11 @@ Se simula un brazo robótico con 7 grados de libertad tomado del repositorio kuk
 ```
 ![Screenshot from 2025-04-24 18-57-56](https://github.com/user-attachments/assets/c62a4f47-84af-47e9-8d44-7a9e5e0669e9)
 ![Screenshot from 2025-04-24 19-42-27](https://github.com/user-attachments/assets/66a8e8ea-77c2-4da3-9eba-c91a2cde6027)
-![Screenshot from 2025-04-24 19-49-12](https://github.com/user-attachments/assets/a785c389-3ab0-4d21-abc1-94408f220574)}
 ![Screenshot from 2025-04-24 20-10-54](https://github.com/user-attachments/assets/56d964e1-39cd-458e-98d7-58ec59552f63)
 
 # Código simulación 2:
 ```python
-#Esta version agrega una base fija permitiendo que se puesa realizar la torcion de 1.5 grados en cada articulacion
+#Esta version agrega una base fija permitiendo que se pueda realizar la torcion de 1.5 metros en cada articulacion
 
     #Reset simulation
     pybullet.resetSimulation()
@@ -147,6 +143,7 @@ Se simula un brazo robótico con 7 grados de libertad tomado del repositorio kuk
 
 # Código simulación 3:
 ```python
+#Version Final: Se agrega cinemática inversa para realizar adecuadamente la torcion de 1.5 metros en cada articulacion
 #Reset simulation
     import pybullet
     import time
@@ -171,20 +168,18 @@ Se simula un brazo robótico con 7 grados de libertad tomado del repositorio kuk
 
 ![Screenshot from 2025-04-25 04-24-13](https://github.com/user-attachments/assets/f64fd61d-a0a9-4600-8f5f-19a1f66922a5)
 
-![Screenshot from 2025-04-25 04-22-33](https://github.com/user-attachments/assets/1cb33822-4e56-4803-9bac-579d5993bd54)
+[Screencast from 04-24-2025 09:18:15 PM.webm](https://github.com/user-attachments/assets/89302a6e-0850-403c-85df-1d1e2d9c9b3a)
 
 ---
 ### 🛠️Conclusiones
 
 El uso de PyBullet como motor de simulación fı́sica en proyectos de robótica y simulación
-ofrece múltiples ventajas, especialmente en entornos académicos y de desarrollo rápido. 
+ofrece múltiples ventajas, especialmente en entornos académicos de simulación y de desarrollo rápido. 
 
- - PyBullet permite una simulación realista de dinámicas fı́sicas, incluyendo colisiones,fricción, y articulaciones robóticas, lo que facilita el desarrollo y prueba de algoritmos
-sin necesidad de hardware fı́sico. \
-- Su integración con Python simplifica la programación y automatización de pruebas,convirtiéndolo en una herramienta accesible para estudiantes, investigadores y desarro-
-lladores.\
-- La posibilidad de visualizar en tiempo real las simulaciones mediante interfaces gráficas,acelera la comprensión del comportamiento del sistema.\
-- PyBullet incluye modelos de robots, sensores y escenarios, reduciendo el tiempo deconfiguración inicial y permitiendo centrarse en el desarrollo del sistema o control.\
-- PyBullet tiene limitaciones en fidelidad gráfica y en comparación con simuladores industriales, por lo que su uso debe estar orientado principalmente a entornos de desarrollo,
-educación y validación conceptual.\
+- PyBullet permite una simulación realista de dinámicas fı́sicas, incluyendo  articulaciones robóticas, gravedad, etc. Lo que facilita el desarrollo y prueba de algoritmos
+sin necesidad de hardware.
+- Su integración con Python ayuda a la fácil programación y automatización de pruebas,convirtiéndolo en una herramienta accesible para estudiantes.
+- La posibilidad de visualizar en tiempo real las simulaciones mediante interfaces gráficas,mejora la comprensión del comportamiento del robot.
+- PyBullet incluye modelos de robots, sensores y escenarios, reduciendo el tiempo deconfiguración inicial y permitiendo centrarse en el desarrollo del sistema o del control.
+- Su uso debe estar orientado principalmente a entornos de desarrollo, educación y validación de pruebas.
 
