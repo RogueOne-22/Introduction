@@ -42,12 +42,6 @@ La simulación permite:
 - **Comando de inicio**:
   - Ejecuta automáticamente `main.py` con Python 3.
 
-> 🔥 **Nota:** Se recomienda corregir el comando `CMD` en el Dockerfile a:
-> ```Dockerfile
-> CMD ["python3", "main.py"]
-> ```
-> para cumplir con el formato oficial de Docker.
-
 ## 🚀 Cómo construir y correr el contenedor
 
 1. Construir la imagen:
