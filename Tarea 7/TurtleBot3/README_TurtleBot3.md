@@ -54,6 +54,7 @@ roslaunch turtlebot3_gazebo turtlebot3_house.launch"
 - 
 ![Screenshot from 2025-05-01 19-12-48](https://github.com/user-attachments/assets/e23a41f8-e060-4086-95f0-9107cb707e9e)
 
+[Screencast from 04-28-2025 04:12:51 AM.webm](https://github.com/user-attachments/assets/98828fbf-d80d-4c6c-bc8c-e4e3aea394a6)
 
 ### 🔹 Modelo Waffle
 - Adecuado para espacios cerrados y angostos.
@@ -61,6 +62,8 @@ roslaunch turtlebot3_gazebo turtlebot3_house.launch"
 - Mejor capacidad de percepción tridimensional.
 - 
 ![Screenshot from 2025-05-01 19-16-15](https://github.com/user-attachments/assets/be361f04-e0bf-4b91-ad09-c2506a5f5a3e)
+[Screencast from 04-28-2025 04:26:21 AM.webm](https://github.com/user-attachments/assets/c846dd89-db79-4b01-ab5b-0bb0ba39af3f)
+[Screencast from 04-28-2025 04:42:29 AM.webm](https://github.com/user-attachments/assets/71eff89b-5ea7-4b13-a1b6-3abea474797c)
 
 ---
 
