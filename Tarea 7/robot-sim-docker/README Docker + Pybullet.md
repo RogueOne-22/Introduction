@@ -76,5 +76,8 @@ Al ejecutar el contenedor:
 
 ![Screenshot from 2025-04-25 10-55-40](https://github.com/user-attachments/assets/131175b8-1a02-4083-983f-3890e224042c)
 
-[Screencast from 04-28-2025 03:57:40 AM.webm](https://github.com/user-attachments/assets/984bc98f-7d82-4c44-9dea-f7a23e8e886e)
+[Robot-sim-docker.webm](https://github.com/user-attachments/assets/d4e7a6b2-bd0c-45e9-9cc3-c870487c7d0d)
+
+
+
 
