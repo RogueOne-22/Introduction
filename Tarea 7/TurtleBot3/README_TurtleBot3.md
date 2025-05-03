@@ -1,6 +1,6 @@
 
-> [!Note]
-> Para mas información revisar el archivo pdf adjunto, contiene mas de 5 páginas
+> [!Important]
+> Para mas información revisar el archivo "Turtle Bot 3.pdf adjunto (contiene mas de 5 páginas)
 
 # 🤖 Simulación del TurtleBot3 con ROS Noetic
 
