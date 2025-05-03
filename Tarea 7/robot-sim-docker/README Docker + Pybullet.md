@@ -1,3 +1,5 @@
+>[!Important]
+> Para mayor información revisar el archivo adjunto "Docker_pybullet.pdf" (contiene más de 5 páginas)
 
 # Proyecto: Simulación de Robot de Dos Articulaciones
 
@@ -76,4 +78,3 @@ Al ejecutar el contenedor:
 
 [Screencast from 04-28-2025 03:57:40 AM.webm](https://github.com/user-attachments/assets/984bc98f-7d82-4c44-9dea-f7a23e8e886e)
 
-Proyecto basado en PyBullet y simulación básica de cinemática de robots.
