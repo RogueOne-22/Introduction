@@ -113,12 +113,13 @@ Esto permite que el contenedor Docker use tu servidor gráfico para mostrar vent
 ---
 
 ### 8. Lanzar Gazebo para Simulaciones
-al ej
-Finalmente, se muestra cómo lanzar Gazebo dentro del contenedor y ejecutar una simulación de robot.
+
+Finalmente, se muestra cómo lanzar Gazebo dentro del contenedor y ejecutar una simulación de robot. 
 
 ```bash
 ros2 launch gazebo_ros gazebo.launch.py
 ```
+EL código anterior se ejecuta automaticamente.
 
 ![Screenshot from 2025-04-24 17-49-17](https://github.com/user-attachments/assets/d1387054-25c9-4e96-b1e2-65bb934fdb51)
 
