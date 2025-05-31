@@ -1,18 +1,8 @@
 # 🔫 Tank Battle Mejorado
 
-Una versión mejorada de un juego de tanques 2D desarrollado en Python con [Pygame](https://www.pygame.org/). Controla un tanque, dispara a los enemigos, esquiva sus balas y mantente con vida. Esta versión incluye varias mejoras visuales y funcionales.
+## Docker Hub: [Pausc0222 - pygame-games](https://hub.docker.com/r/pausc0222/pygame-games)
 
----
-
-## 🧱 Características Principales
-
-- ✅ Movimiento y disparo estilo arcade.
-- ✅ Diseño visual tipo "carro" para los tanques.
-- ✅ Barra de vida visible sobre cada enemigo.
-- ✅ Pausa del juego con tecla `ENTER`.
-- ✅ Controles explicativos en la parte inferior de la pantalla.
-- ✅ Curación al destruir enemigos.
-- ✅ Colisión entre balas y tanques implementada.
+Una versión mejorada de un juego de tanques 2D desarrollado en Python con [Pygame](https://www.pygame.org/). Controla un tanque, dispara a los enemigos y divierte!
 
 ---
 
@@ -40,9 +30,9 @@ Una versión mejorada de un juego de tanques 2D desarrollado en Python con [Pyga
 
 ---
 
-## 🧠 Partes clave del código
+## 🧠 Partes clave en el código:
 
-### 🎨 1. **Nuevo diseño de tanques**
+### 🎨 1. **Diseño de tanques**
 Los tanques ahora simulan una forma más parecida a un carro:
 ```python
 self.image = pygame.Surface((50, 20), pygame.SRCALPHA)
@@ -83,19 +73,4 @@ Los controles se muestran al pie de la pantalla en todo momento:
 controls_text = font.render("WASD/↑↓←→: mover   ESPACIO: disparar   ENTER: pausar", True, WHITE)
 screen.blit(controls_text, (10, HEIGHT - 40))
 ```
-
 ---
-
-## 💡 Ideas futuras
-
-- Agregar sonidos y música.
-- Introducir enemigos con IA más compleja.
-- Power-ups y habilidades especiales.
-- Modo multijugador local.
-
----
-
-## ✨ Créditos
-
-Desarrollado con ❤️ usando Python + Pygame.
-Inspirado en los clásicos juegos de tanques arcade.
