@@ -1,18 +1,19 @@
-# 🎮 Tetris Multinivel en Python
+# 🎮 Tetris 
 
-Este es un juego de Tetris desarrollado en Python utilizando la biblioteca [Pygame](https://www.pygame.org/). Incluye características como múltiples niveles, pausa, reinicio, nuevas formas de bloques, interfaz tipo retro y control de rotación.
+## Docker Hub: [Pausc0222 - pygame-games](https://hub.docker.com/r/pausc0222/pygame-games)
+
+Este es un juego de Tetris desarrollado en Python utilizando la biblioteca [Pygame](https://www.pygame.org/).
 
 ---
 
 ## 🧱 Características
 
-- Modo clásico de Tetris con caída automática de piezas.
-- Sistema de niveles: sube de nivel al alcanzar ciertos puntos.
+- Caída automática de piezas.
+- Varios niveles.
 - Pausa con `ENTER`.
 - Reinicio con `CTRL`.
-- Nuevas formas adicionales además de las clásicas.
-- Controles visibles en pantalla.
-- Márgenes visibles del campo de juego.
+- Controles en pantalla.
+- Márgenes visibles.
 
 ---
 
@@ -37,12 +38,12 @@ Este es un juego de Tetris desarrollado en Python utilizando la biblioteca [Pyga
    ```
 3. Ejecuta el archivo:
    ```bash
-   python Tetris_final_corregido.py
+   python3 Tetris_final_corregido.py
    ```
 
 ---
 
-## 🧠 Estructura del código
+## 🧠 Cambios en el código
 
 ### `class Pieza`
 Representa una ficha del juego. Tiene propiedades como posición, color y rotación. Incluye:
@@ -67,8 +68,3 @@ Contiene el bucle principal del juego:
 - Usa `pygame.time.get_ticks()` para controlar la velocidad de caída.
 
 ---
-
-## ✨ Créditos
-
-- Hecho con ❤️ en Python y Pygame.
-- Inspirado en el clásico juego de Tetris.
