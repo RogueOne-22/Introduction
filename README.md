@@ -1,6 +1,6 @@
 > [!Note]
 > Actulización - Segundo corte: Scroll down para el  resumen de las diferentes actividades (Tarea 6 y 7) \
-> Para mayor informacion revisar los documentos adjuntos en las carpetas de cada tarea
+> Para mayor informacion revisar los documentos adjuntos en las carpetas de cada tarea ["Tarea 6! y "Tarea 7"]
 
 # Tarea 6:  Pepper, PyBullet, ROS2 y Gazebo
 
@@ -59,7 +59,7 @@ Permite ejecutar simulaciones de robots de forma portátil, sin necesidad de ins
   
 ---
 
-# 🚀 Tarea 7: Proyecto: Simulación de Robot de Dos Articulaciones en  ejecutado desde Docker
+# 🚀 Tarea 7: PT1: Proyecto: Simulación de Robot de Dos Articulaciones en  ejecutado desde Docker
 
 Este proyecto consiste en la simulación de un robot de dos articulaciones usando **PyBullet**, ejecutado dentro de un contenedor Docker configurado para soportar entorno gráfico.
 
@@ -90,6 +90,44 @@ docker run --rm -it \
 ## 📷 Resultados esperados
 
  [Demostracion.webm](https://github.com/user-attachments/assets/cea2c372-31bd-427f-8e39-27fc9e0883bc)
-  
+
+
+ # 🤖 Tarea 7: PT2 Simulación del TurtleBot3 con ROS Noetic
+
+Este proyecto implementa una simulación del robot móvil TurtleBot3 utilizando ROS Noetic y el simulador Gazebo. Se integran herramientas de SLAM para la exploración y mapeo de entornos, evaluando los modelos Burger y Waffle.
+
+---
+
+## 🧩 Descripción General
+
+El **TurtleBot3** es un robot modular, compacto y económico, desarrollado por **ROBOTIS** en colaboración con la comunidad ROS. Está diseñado para aplicaciones educativas, de investigación y prototipado rápido.
+
+## 🧪 Resultados de la Simulación
+
+### 🔹 Modelo Burger
+- Mejores resultados en entornos abiertos.
+- Sensor LiDAR de gran alcance y buena velocidad de respuesta.
+- Adecuado para mapeo rápido de áreas con obstáculos dispersos.
+- 
+![Screenshot from 2025-05-01 19-12-48](https://github.com/user-attachments/assets/fa744ccc-7583-418a-b35b-56fc7ea49dd1)
+
+
+### 🔹 Modelo Waffle
+- Adecuado para espacios cerrados y angostos.
+- Sensor LiDAR + cámara 3D (Intel RealSense).
+- Mejor capacidad de percepción tridimensional.
+- 
+![Screenshot from 2025-05-01 19-16-15](https://github.com/user-attachments/assets/1dff06f2-55e2-47fb-8dbf-5de48b28ce37)
+
+>[Note!]
+>Los viedos se encuentran en la carpeta de desarollo 
+---
+
+## 📌 Conclusiones
+
+- Ambos modelos son funcionales y emplean el mismo sensor LiDAR.
+- Waffle/Waffle Pi añade percepción 3D gracias a la cámara RealSense.
+- Burger es más ligero y ágil.
+
 
  

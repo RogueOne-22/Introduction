@@ -1,3 +1,5 @@
+>[!Important]
+> Para mayor información revisar el archivo adjunto "Docker_pybullet.pdf" (contiene más de 5 páginas)
 
 # Proyecto: Simulación de Robot de Dos Articulaciones
 
@@ -42,12 +44,6 @@ La simulación permite:
 - **Comando de inicio**:
   - Ejecuta automáticamente `main.py` con Python 3.
 
-> 🔥 **Nota:** Se recomienda corregir el comando `CMD` en el Dockerfile a:
-> ```Dockerfile
-> CMD ["python3", "main.py"]
-> ```
-> para cumplir con el formato oficial de Docker.
-
 ## 🚀 Cómo construir y correr el contenedor
 
 1. Construir la imagen:
@@ -77,7 +73,13 @@ docker run --rm -it \
 Al ejecutar el contenedor:
 - Aparecerá una ventana PyBullet.
 - Se podrá controlar las articulaciones del robot con sliders en tiempo real.
+  
+[Robot-sim-docker.webm](https://github.com/user-attachments/assets/c27c4ecf-8a1a-474b-b320-de53277bf460)
 
-# 📚 Créditos
 
-Proyecto basado en PyBullet y simulación básica de cinemática de robots.
+
+
+
+
+
+

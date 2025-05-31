@@ -1,3 +1,6 @@
+>[!Important]
+>Para mayor información acerca de las librerias revisar el archivo "Tarea_6 - Librerias V2.pdf" (más de 5 páginas)
+
 # Tarea 6: Librerías para el Robot Pepper - PT1
 
 ---
